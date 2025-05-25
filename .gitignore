@@ -1,0 +1,46 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+env/
+venv/
+*.env
+*.venv
+
+# PyCharm project files
+.idea/
+
+# VSCode settings
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# PyInstaller specific files (if you're packaging your app)
+dist/
+build/
+*.spec
+
+# PyQt related
+*.pyo
+*.pyc
+
+# Any other temporary files
+*.log
+*.bak
+*.swp
+*.swo
+
+# Database files (if using SQLite for example)
+*.db
+
+# Compiled UI files (if you're using pyuic or similar)
+*.pyc
+
+# Qt Designer files (if you're working with .ui files)
+*.ui
