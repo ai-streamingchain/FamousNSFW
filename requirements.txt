@@ -1,0 +1,16 @@
+PySide6==6.9.0                 # GUI framework for your PyQt app
+ctransformers==0.2.27          # For running Mistral .gguf (text-to-text)
+torch==2.2.2                   # Required for most AI models (CPU-compatible)
+torchvision==0.17.2            # For image processing and decoding SD outputs
+transformers==4.38.2           # Tokenizer support (e.g., SD, LLMs)
+diffusers==0.27.2              # For running Stable Diffusion pipeline
+accelerate==0.28.0             # Handles inference device dispatch (CPU/GPU)
+safetensors==0.4.2             # Safe model file loading (.safetensors)
+omegaconf==2.3.0               # YAML config parser for SD .ckpt config
+pytorch-lightning==2.2.4       # Required by the original SD codebase (CompVis)
+ftfy==6.2.0                    # Fixes text encoding issues in prompts
+numpy==1.26.4                  # Used by everything: whisper, SD, transformers
+Pillow==10.3.0                 # Image saving/preview (e.g., from generated images)
+sounddevice==0.4.6
+
+faster-whisper==0.10.0         # Speech-to-text from audio using base.pt
