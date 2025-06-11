@@ -13,7 +13,6 @@ venv/
 .idea/
 
 # VSCode settings
-.vscode/
 
 # MacOS specific files
 .DS_Store
@@ -44,3 +43,12 @@ build/
 
 # Qt Designer files (if you're working with .ui files)
 *.ui
+
+#python module libraries
+libs/
+
+#AI Models
+models/
+upload/
+config.bat
+node_modules
