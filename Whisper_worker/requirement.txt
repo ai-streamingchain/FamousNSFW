@@ -1,0 +1,1 @@
+faster-whisper==0.10.0         # Speech-to-text from audio using base.pt

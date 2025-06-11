@@ -44,3 +44,10 @@ build/
 
 # Qt Designer files (if you're working with .ui files)
 *.ui
+
+#python module libraries
+libs/
+
+#AI Models
+models/
+upload/
